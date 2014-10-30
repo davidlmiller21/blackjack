@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="main.css">
+    <title></title>
+</head>
+<body>
+
+    <div id="dealer_div">
+
+        <label for="dealer_score">Dealer:</label>
+
+        <input type="text" id="dealer_score" size="4" disabled>
+        <button type="button" id="start_button" onclick="players1.dealGame.apply(players1)">Start Deal</button>
+        <div id="dealer_card_images">
+            <p></p>
+        </div>
+
+    </div>
+
+    <div id="player_div">
+
+        <label for="user_score">Player:</label>
+        <input type="text" id="user_score" size="4" disabled>
+
+        <label for="user_result">Result:</label>
+        <input type="text" id="user_result" size="8" disabled>
+
+        <button type="button" id="stand_button" class="action_buttons" onclick="players1.stand()">Stand</button>
+        <button type="button" id="hit_button" class="action_buttons" onclick="players1.hit()">Hit</button>
+        <button type="button" id="double_down_button" class="action_buttons"  onclick="players1.doubleDown()">Double-Down</button>
+        <button type="button" id="split_button" class="action_buttons">Split</button><br>
+        <div id="player_card_images">
+            <p></p>
+        </div>
+
+        <button type="button" id="bet_button" onclick="players1.dealGame.apply(players1)" hidden>Bet</button>
+
+    </div>
+    <script src="Blackjack.js"></script>
+</body>
+</html>
