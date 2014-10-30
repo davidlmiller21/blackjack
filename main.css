@@ -1,0 +1,80 @@
+/**********************************************************************************************************************
+STARTING SITUATION
+**********************************************************************************************************************/
+.action_buttons {
+    visibility: hidden;
+    background-color: steelblue;
+    color:white;
+}
+
+#start_button {
+    margin: 15px 0 0 20px;
+    background-color: lightseagreen;
+    color: white;
+}
+
+#bet_button {
+    position:relative;
+    bottom: 60px;
+    left: 20px;
+    background-color: lightseagreen;
+    color: white;
+}
+/**********************************************************************************************************************
+DEALER
+**********************************************************************************************************************/
+
+#dealer_div {
+    position:relative;
+    height: 200px;
+}
+
+#dealer_score {
+    margin-bottom:30px;
+}
+
+#dealer_card_images {
+    width: 312px;
+    height: 120px;
+    background: green;
+
+}
+
+
+/**********************************************************************************************************************
+PLAYER
+**********************************************************************************************************************/
+#player_div {
+    position: relative;
+    height: 200px;
+    margin-top: 40px;
+}
+
+#user_score {
+    margin-bottom:30px;
+    font-weight: bold;
+    color: black;
+}
+
+#user_result {
+    color: black;
+    font-weight: bold;
+}
+
+#player_card_images {
+    width: 312px;
+    height: 120px;
+    background: green;
+    display: inline-block;
+}
+
+
+
+
+
+/**********************************************************************************************************************
+COLORING
+**********************************************************************************************************************/
+body {
+    background: cornsilk;
+}
